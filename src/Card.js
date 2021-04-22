@@ -1,5 +1,8 @@
 import React from 'react';
 
+// destructuring props right in the arguments section
+// instead of (props) => we do ({ name, email, id })
+// would be the same as---> const { name, email, id } = props;
 const Card = ({ name, email, id }) => {
 	return (
 		<div className="tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5">
